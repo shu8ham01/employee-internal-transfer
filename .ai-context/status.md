@@ -4,7 +4,7 @@ _Last updated: 2026-09-15_
 
 ## Quality Gates Status
 - **Gate 0 (BRD PR Review):** `Approved` (Authoritative BRD approved by Tech Lead `supratim.jetty@intglobal.com` on 2026-09-14)
-- **Gate 1 (Spec Peer Reviews):** `1 Spec Approved, 4 Specs Pending Review` (transfer-request-initiation Approved on 2026-09-15)
+- **Gate 1 (Spec Peer Reviews):** `All 5 Specs Approved` (transfer-request-initiation, workflow-orchestration, transparency-dashboard, operational-orchestration, notifications-and-audit Approved)
 - **Gate 2 (Code Reviews):** `1 Spec Approved (Gate 2)` (transfer-request-initiation Code Approved on 2026-09-15)
 
 ---
@@ -15,10 +15,14 @@ _Last updated: 2026-09-15_
 |---|---|---|---|---|---|---|
 | `BRD-Baseline` | Employee Internal Transfer Digital Journey | **Gate 0** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-14 | Gate 0 Approved (`.ai-context/pr_reviews/GATE0-BRD-Baseline-20260914-235400.md`). Unblocked feature specs. |
 | `transfer-request-initiation` | Transfer Request Initiation & Submission (BRD-001) | **Gate 2** | `Gate 2 Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 2 Approved (`.ai-context/pr_reviews/GATE2-transfer-request-initiation-20260915-133925.md`). 15/15 tests PASS. |
-| `workflow-orchestration` | Downstream Stakeholder Workflow Orchestration (BRD-002) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
-| `transparency-dashboard` | Single View of Progress & Transparency Dashboard (BRD-003) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
-| `operational-orchestration` | Downstream Operational Task Orchestration (BRD-004) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
-| `notifications-and-audit` | Notifications & Audit Logging (BRD-005) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
+| `workflow-orchestration` | Downstream Stakeholder Workflow Orchestration (BRD-002) | **Gate 1** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 1 Approved (`.ai-context/pr_reviews/GATE1-workflow-orchestration-20260915-151043.md`). Ready for development. |
+| `transparency-dashboard` | Single View of Progress & Transparency Dashboard (BRD-003) | **Gate 1** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 1 Approved (`.ai-context/pr_reviews/GATE1-transparency-dashboard-20260915-151158.md`). Ready for development. |
+| `operational-orchestration` | Downstream Operational Task Orchestration (BRD-004) | **Gate 1** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 1 Approved (`.ai-context/pr_reviews/GATE1-operational-orchestration-20260915-151310.md`). Ready for development. |
+| `notifications-and-audit` | Notifications & Audit Logging (BRD-005) | **Gate 1** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 1 Approved (`.ai-context/pr_reviews/GATE1-notifications-and-audit-20260915-151438.md`). Ready for development. |
+
+
+
+
 
 ---
 

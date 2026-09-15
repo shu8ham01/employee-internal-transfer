@@ -4,7 +4,7 @@
 notifications-and-audit
 
 ## Status
-Draft
+Approved
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)
@@ -17,8 +17,9 @@ Draft
 ## Gate Approvals & History
 | Gate | Approver Name | Approver Email/ID | Date/Time | Outcome | Approval Comment / Summary |
 |---|---|---|---|---|---|
-| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting Gate 1 PR review submission |
+| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | 2026-09-15 15:14:38 | Approved | Approved by Tech Lead (.ai-context/pr_reviews/GATE1-notifications-and-audit-20260915-151438.md) |
 | Gate 2 (Code Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting development completion & TDD green |
+
 
 ## Intent
 Provides automated notifications for workflow events (submission, manager approval, revisions requested, HR sign-off, fulfillment completion) and records an immutable, append-only audit trail capturing actor identity, action type, previous and new states, timestamp, IP address, and comments for enterprise governance.

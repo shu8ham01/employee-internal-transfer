@@ -4,7 +4,7 @@
 transparency-dashboard
 
 ## Status
-Draft
+Approved
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)
@@ -17,8 +17,9 @@ Draft
 ## Gate Approvals & History
 | Gate | Approver Name | Approver Email/ID | Date/Time | Outcome | Approval Comment / Summary |
 |---|---|---|---|---|---|
-| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting Gate 1 PR review submission |
+| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | 2026-09-15 15:11:58 | Approved | Approved by Tech Lead (.ai-context/pr_reviews/GATE1-transparency-dashboard-20260915-151158.md) |
 | Gate 2 (Code Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting development completion & TDD green |
+
 
 ## Intent
 Provides a unified, real-time One-Point Employee Portal dashboard displaying transfer progression, an interactive visual stage tracker, explicit stakeholder bottleneck indicators (identifying who holds the pending action item and elapsed duration), and an actionable queue for managers and HR admins to view and action pending reviews.
