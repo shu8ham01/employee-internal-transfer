@@ -4,7 +4,7 @@
 transfer-request-initiation
 
 ## Status
-Draft
+Approved
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)
@@ -17,8 +17,9 @@ Draft
 ## Gate Approvals & History
 | Gate | Approver Name | Approver Email/ID | Date/Time | Outcome | Approval Comment / Summary |
 |---|---|---|---|---|---|
-| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting Gate 1 PR review submission |
+| Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | 2026-09-15 11:51:41 | Approved | Approved by Tech Lead (.ai-context/pr_reviews/GATE1-transfer-request-initiation-20260915-115141.md) |
 | Gate 2 (Code Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting development completion & TDD green |
+
 
 ## Intent
 Enables eligible employees to discover internal transfer opportunities, select target department, target office location, and target role, set a requested future effective date, provide justification notes, upload optional supporting documents, and submit their transfer request into the approval orchestration pipeline. The system enforces business rules preventing concurrent active requests and disallowing requests to an employee's existing department/role.
