@@ -3,7 +3,7 @@ name: int-brd-ingestion
 description: Ingest client BRD documents from docs/, establish or revise the authoritative .ai-context/BRD.md baseline, maintain BRD change traceability, and stop before architecture or implementation work.
 ---
 
-# INT BRD Ingestion
+# INT BRD Ingestion Workflow
 
 ## 1. Purpose
 

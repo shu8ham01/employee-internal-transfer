@@ -28,7 +28,7 @@ Client BRD Document / Reverse-Engineered Baseline
        ↓
      docs/
        ↓
-   BRD Ingestion / Authoring
+  BRD Ingestion / Authoring
        ↓
 .ai-context/BRD.md (Status: Pending Review)
        ↓

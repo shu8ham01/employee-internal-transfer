@@ -15,3 +15,10 @@
 ### [2026-09-14 23:54]
 **User Request:** Run PR Gate Review Workflow (/int-pr-gate-workflow) for Gate 0 BRD Baseline Review.
 **Agent Action:** Authenticated git user email (supratim.jetty@intglobal.com) against assigned reviewer roster. Conducted Gate 0 PR Review for BRD-Baseline (Employee Internal Transfer Digital Journey). Verified 10 review criteria across business objectives, downstream workflow, and baseline acceptance criteria. Recorded decision = Approved in .ai-context/pr_reviews/GATE0-BRD-Baseline-20260914-235400.md. Synchronized BRD.md, status.md, dashboard.html, and prompt_history.md. Feature spec drafting is now UNBLOCKED.
+
+### [2026-09-15 11:17]
+**User Request:** Synchronize local project skills, workflows, and rules with master global INT configuration (/int-sync-global-skills).
+**Agent Action:** Executed INT Global Skill & Control Plane Synchronization Workflow. Updated control plane rules in `.agent/rules/`, synchronized 11 global workflows into `.agent/workflows/`, and deployed clean copies of 8 INT skills into `.agent/skills/` (excluding nested resources). Cleaned up legacy `.agents/` folder and verified non-destructive preservation of `.ai-context/` business artifacts and application source code (`src/`, `tests/`).
+
+
+

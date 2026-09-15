@@ -40,3 +40,5 @@ You are assisting an engineering team at INT. Whenever you write, refactor, or s
 * Strict Gate 1 Rejection Block: If a spec was `Rejected` or marked `Changes Requested` at Gate 1, strictly block all planning (`.plan.md`), task generation (`.tasks.md`), test case drafting (`.test_cases.md`), and code implementation (`src/`). The user MUST update the spec (`.ai-context/specs/<slug>.spec.md`) and re-submit for Gate 1 approval.
 * Approved Spec Development Lifecycle: Approved specs proceed through Plan (`.plan.md`) -> Tasks (`.tasks.md`) -> Test Cases (`.test_cases.md`) -> TDD RED (`tests/`) -> TDD GREEN (`src/`) -> Test Verification -> Gate 2 Review (`.ai-context/pr_reviews/GATE2-<slug>-*.md`).
 * Change Request Keyword Rule: Trigger formal Change Request workflow (Spec revision & Gate 1 re-approval) ONLY when prompt explicitly contains "Change Request" or "CR". Prompts without "Change Request" are processed as Development-Related Fixes / UI Bug Fixes under the active approved spec.
+
+
