@@ -4,7 +4,7 @@
 operational-orchestration
 
 ## Status
-Approved
+In QA
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)

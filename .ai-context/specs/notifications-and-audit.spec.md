@@ -4,7 +4,7 @@
 notifications-and-audit
 
 ## Status
-Approved
+In QA
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)
@@ -18,7 +18,7 @@ Approved
 | Gate | Approver Name | Approver Email/ID | Date/Time | Outcome | Approval Comment / Summary |
 |---|---|---|---|---|---|
 | Gate 1 (Spec Review) | Tech Lead | supratim.jetty@intglobal.com | 2026-09-15 15:14:38 | Approved | Approved by Tech Lead (.ai-context/pr_reviews/GATE1-notifications-and-audit-20260915-151438.md) |
-| Gate 2 (Code Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | Awaiting development completion & TDD green |
+| Gate 2 (Code Review) | Tech Lead | supratim.jetty@intglobal.com | Pending Review | Pending | TDD RED -> GREEN complete. 78/78 tests passing across 15 suites. Ready for Gate 2 Code Review. |
 
 
 ## Intent
