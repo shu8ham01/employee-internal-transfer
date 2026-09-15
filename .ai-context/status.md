@@ -14,7 +14,7 @@ _Last updated: 2026-09-15_
 | ID | Title | Gate Level | Status | Assigned Reviewer | Last Updated | Notes |
 |---|---|---|---|---|---|---|
 | `BRD-Baseline` | Employee Internal Transfer Digital Journey | **Gate 0** | `Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-14 | Gate 0 Approved (`.ai-context/pr_reviews/GATE0-BRD-Baseline-20260914-235400.md`). Unblocked feature specs. |
-| `transfer-request-initiation` | Transfer Request Initiation & Submission (BRD-001) | **Gate 2** | `Gate 2 Approved` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Gate 2 Approved (`.ai-context/pr_reviews/GATE2-transfer-request-initiation-20260915-133925.md`). 15/15 tests PASS. |
+| `transfer-request-initiation` | Transfer Request Initiation & Submission (BRD-001) | **Released** | `Released (v0.1.0)` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Released under tag `v0.1.0` (`.ai-context/releases/RELEASE-v0.1.0.md`). Gate 2 signed off. |
 | `workflow-orchestration` | Downstream Stakeholder Workflow Orchestration (BRD-002) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
 | `transparency-dashboard` | Single View of Progress & Transparency Dashboard (BRD-003) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
 | `operational-orchestration` | Downstream Operational Task Orchestration (BRD-004) | **Gate 1** | `Draft` | Tech Lead (`supratim.jetty@intglobal.com`) | 2026-09-15 | Spec drafted. Ready for Gate 1 PR Review submission. |
@@ -25,6 +25,7 @@ _Last updated: 2026-09-15_
 ## Daily Execution Log
 
 ### 2026-09-15
+- **int-release-management (Release v0.1.0)**: Validated release readiness for `transfer-request-initiation`. Generated release notes artifact `.ai-context/releases/RELEASE-v0.1.0.md` derived from Spec Intent and verified Gate 2 sign-off. Transitioned spec status to `Released (v0.1.0)`.
 - **int-pr-gate-workflow (Gate 2 Code PR Review)**: Executed Gate 2 Code PR Review for `transfer-request-initiation` (BRD-001). Authenticated git user email (`supratim.jetty@intglobal.com`) matched assigned reviewer roster. Verified 15/15 passing unit tests across 3 suites (`components.test.ts`, `transfer.service.test.ts`, `transfer.routes.test.ts`). Granted Gate 2 Approval and saved review record `.ai-context/pr_reviews/GATE2-transfer-request-initiation-20260915-133925.md`.
 - **TDD Implementation Cycle (transfer-request-initiation)**: Executed TDD RED -> GREEN cycle for BRD-001 / `transfer-request-initiation`:
   1. Authored unit tests covering UT01-UT05 / AC1-AC5 in `tests/backend/modules/transfers/transfer.service.test.ts` (confirmed RED with 7/7 failing).

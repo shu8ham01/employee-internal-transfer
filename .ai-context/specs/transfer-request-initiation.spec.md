@@ -4,7 +4,7 @@
 transfer-request-initiation
 
 ## Status
-Completed (Gate 2 Approved)
+Released (v0.1.0)
 
 ## Roles & Assignments
 - **Developer:** Developer (`developer@intglobal.com`)
